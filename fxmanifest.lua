@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-author 'Dragon <dragon@sundigit.net>'
-description 'Sun Script'
+author 'Sun Digital Dev.'
+description 'info'
 version '1.0.0'
 
 shared_script {
@@ -13,11 +13,11 @@ shared_script {
 }
 
 server_script {
-    'server/main.lua',
+    'server/*.lua',
 }
 
 client_script {
-    'client/main.lua',
+    'client/*.lua',
 }
 
 escrow_ignore {
