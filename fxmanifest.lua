@@ -8,7 +8,7 @@ version '1.0.0'
 
 shared_script {
     '@es_extended/imports.lua',
-    'shared/*.lua',
+	'@ox_lib/init.lua',
     'config.lua',
 }
 
@@ -21,5 +21,6 @@ client_script {
 }
 
 escrow_ignore {
-    'config.lua'
+    'config.lua',
+    'server/webhhoks.lua'
 }
